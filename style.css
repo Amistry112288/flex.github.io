@@ -1,0 +1,221 @@
+body {
+    font: "Helvetica", sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+    width: 1300px;
+}
+
+
+header {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    background-color: black;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+}
+
+nav {
+    text-align: right;
+    display: inline;
+    background-color: black;
+    color: seashell; !important;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.crumbs {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline;
+}
+.crumbs ol {
+    font-size: 25px;
+    justify-content: right;
+    color: seashell; 
+}
+
+.crumb {
+    display: inline-block;
+    color: seashell;
+    text-decoration: underline;
+
+}
+
+.crumb a::before {
+    display: inline-block;
+    content: '        ';
+    padding-left: 5px;
+    color: seashell;
+}
+.crumb a::after {
+    display: inline-block;
+    content: '        ';
+    padding-left: 5px;
+    color: seashell;
+}
+.tea-cozy {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-family: 'Great Vibes', sans-serif;
+    text-align: left;
+    background-color: black;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    display: inline;
+}
+
+
+.mission-img {
+    height: 700px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.our-mission {
+    position: absolute;
+    background-color: black;
+    top: 60%;
+    width: 1200px;
+    padding-top: -50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mission {
+    background-color: black;
+    text-align: center;
+    flex-flow: row wrap;
+    width: 1200px;
+}
+.monthtea {
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    flex-flow: row wrap;
+    display: inline;
+}
+
+.tea {
+    background-color: black;
+    text-align: center;
+}
+
+.teas {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.monthtea img {
+    height: 200px;
+    width: 300px;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-evenly;
+    
+}
+
+figure .flavors {
+    text-align: center;
+    width: 200px;
+    flex-wrap: wrap;
+}
+
+figure .caption {
+    padding-top: 10px;
+    text-align: center;
+    width: 200px;
+
+}
+
+.locations {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: lightgrey;
+    position: absolute;
+}
+
+.location-img {
+    height: 500px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    margin-left: 275px;
+}
+
+.location-title {
+    position: absolute;
+    top: 100px;
+    left: 58%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.downtown {
+    background-color: black;
+    width: 200px;
+    height: 150px;
+    opacity: 1;
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+
+}
+
+.bayside {
+    background-color: black;
+    width: 200px;
+    height: 150px;
+    padding-bottom: 10px;
+    opacity: 1;
+    position: absolute;
+    top: 40%;
+    left: 54%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.oakdale {
+    background-color: black;
+    width: 200px;
+    height: 150px;
+    opacity: 1;
+    position: absolute;
+    top: 40%;
+    left: 74%;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
+    justify-content: left;
+}
+
+footer {
+    padding-left: 0px;
+    text-align: center;
+    position: relative;
+    top: 500px;
+}
